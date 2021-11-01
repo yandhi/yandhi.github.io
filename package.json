@@ -4,10 +4,13 @@
   "private": true,
   "description": "Jacks' Site",
   "author": "yandhi",
+  "homepage": "https://yandhi.github.io",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -18,6 +21,7 @@
     "babel-plugin-styled-components": "^1.13.3",
     "gatsby": "^4.0.2",
     "gatsby-plugin-styled-components": "^5.0.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.3.3"

@@ -7,6 +7,7 @@ const langsList = {
 
 const infoList = {
     color: 'black',
+    listStyle: 'square'
 }
 
 const lang = {
