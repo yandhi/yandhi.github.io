@@ -1,0 +1,46 @@
+.sections {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0;
+    padding: 0;
+    margin-top: 0;
+}
+.container {
+    margin: margin-center;
+    max-width: 500px;
+    font-family: sans-serif;
+    background-color: white;
+    padding-left: 10px;
+}
+.pages {
+    margin: margin-left;
+    height: 98vh;
+    width: 20%;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    padding-top: 2;
+    padding-bottom: 0;
+    padding: 2;
+}
+.title {
+    font-size: xxx-large;
+    color:rgb(82, 39, 53);
+    padding-left: 5vh;
+}
+.heading {
+    color: rgb(128, 61, 83);
+}
+.nav-links {
+    display: flexbox;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0;
+}
+.nav-link-item {
+    padding-right: 2rem;
+}
+.nav-link-text {
+    color: palevioletred;
+    text-decoration: none;
+}

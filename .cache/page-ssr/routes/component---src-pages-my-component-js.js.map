@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-my-component-js.js","mappings":";;;;;;;;;;;;;;AAAA;;AAEA,MAAMC,WAAW,GAAG,MAAM;AACtB,sBAAO,4EAAP;AACH,CAFD","sources":["webpack://jacks-site/./src/pages/myComponent.js"],"sourcesContent":["import * as React from 'react'\n\nconst MyComponent = () => {\n    return <h1>Hello, world</h1>\n}"],"names":["React","MyComponent"],"sourceRoot":""}
