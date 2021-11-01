@@ -15,18 +15,19 @@
 }
 .pages {
     margin: margin-left;
-    height: 98vh;
-    width: 20%;
+    height: 100vh;
+    width: fit-content;
     font-family: sans-serif;
     background-color: whitesmoke;
     padding-top: 2;
-    padding-bottom: 0;
+    padding-bottom: 2;
     padding: 2;
 }
 .title {
     font-size: xxx-large;
     color:rgb(82, 39, 53);
-    padding-left: 5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
 }
 .heading {
     color: rgb(128, 61, 83);
